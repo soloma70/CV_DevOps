@@ -180,9 +180,14 @@ body {
     margin-top: 40px;
 }
 
+.ico-tel {
+    margin: 0 0 0 0;
+}
+
 .contact-container,
 .tech-skills-container,
-.soft-skills-container {
+.soft-skills-container,
+.github-container {
     margin: 48px 0 0 40px;
 }
 
@@ -215,9 +220,28 @@ body {
     font-size: 14px;
     line-height: 24px;
     color: #161D2A;
+    text-decoration: none;
 }
 
 .contacts-email {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #2979FF;
+}
+
+.contacts-telega {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #161D2A;
+    text-decoration: none;
+}
+
+/* github */
+.github-link {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
