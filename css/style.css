@@ -180,10 +180,6 @@ body {
     margin-top: 40px;
 }
 
-.ico-tel {
-    margin: 0 0 0 0;
-}
-
 .contact-container,
 .tech-skills-container,
 .soft-skills-container,
@@ -201,14 +197,6 @@ body {
 }
 
 /* contacts-type */
-.contacts-type {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: #161D2A;
-    margin-right: 8px;
-}
 
 .contacts-item {
     margin: 0;
