@@ -183,7 +183,8 @@ body {
 .contact-container,
 .tech-skills-container,
 .soft-skills-container,
-.github-container {
+.github-container,
+.cert-container {
     margin: 48px 0 0 40px;
 }
 
@@ -256,20 +257,22 @@ body {
     text-decoration: none;
 }
 
-.scale,
-.scale-p {
-    padding-left: 10px;
-    width: 25px;
-    transition: 1s;
-    /* Время эффекта */
+.scale {
+    margin-left: 10px;
+    /* width: 25px; */
+    /* transition: 1s; */
 }
 
-.scale:hover {
-    transform: scale(25) translate(-10px, -10px);
-    /* Увеличиваем масштаб */
+.scale-p {
+    padding-left: 10px;
+    /* width: 50px; */
+    /* transition: 1s; */
+}
+
+/* .scale:hover {
+    transform: scale(25) translate(20px, -7px);
 }
 
 .scale-p:hover {
-    transform: scale(35) translate(-8px, -8px);
-    /* Увеличиваем масштаб */
-}
+    transform: scale(20) translate(15px, -7px);
+} */
