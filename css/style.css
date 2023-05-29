@@ -257,22 +257,32 @@ body {
     text-decoration: none;
 }
 
-.scale {
+.scale-l1,
+.scale-l0,
+.scale-p1,
+.scale-p2,
+.scale-p3 {
     margin-left: 10px;
     width: 25px;
     transition: 1s;
 }
 
-.scale-p {
-    padding-left: 10px;
-    width: 25px;
-    transition: 1s;
+.scale-l1:hover {
+    transform: scale(35) translate(-6px, -7px) rotate(-90deg);
 }
 
-.scale:hover {
-    transform: scale(30) translate(-8px, -9px) rotate(-90deg);
+.scale-l0:hover {
+    transform: scale(35) translate(-7px, -8px);
 }
 
-.scale-p:hover {
-    transform: scale(25) translate(-13px, -10px);
+.scale-p1:hover {
+    transform: scale(35) translate(-2px, -9px);
+}
+
+.scale-p2:hover {
+    transform: scale(35) translate(-3px, -9px);
+}
+
+.scale-p3:hover {
+    transform: scale(35) translate(-4px, -9px);
 }
