@@ -259,20 +259,20 @@ body {
 
 .scale {
     margin-left: 10px;
-    /* width: 25px; */
-    /* transition: 1s; */
+    width: 25px;
+    transition: 1s;
 }
 
 .scale-p {
     padding-left: 10px;
-    /* width: 50px; */
-    /* transition: 1s; */
+    width: 25px;
+    transition: 1s;
 }
 
-/* .scale:hover {
-    transform: scale(25) translate(20px, -7px);
+.scale:hover {
+    transform: scale(30) translate(-8px, -9px) rotate(-90deg);
 }
 
 .scale-p:hover {
-    transform: scale(20) translate(15px, -7px);
-} */
+    transform: scale(25) translate(-13px, -10px);
+}
