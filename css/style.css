@@ -262,6 +262,7 @@ body {
 .scale-p1,
 .scale-p2,
 .scale-p3,
+.scale-p5,
 .scale-p6 {
     margin-left: 10px;
     width: 25px;
@@ -288,6 +289,10 @@ body {
     transform: scale(35) translate(-4px, -9px);
 }
 
-.scale-p6:hover {
+.scale-p5:hover {
     transform: scale(35) translate(-5px, -9px);
+}
+
+.scale-p6:hover {
+    transform: scale(35) translate(-6px, -9px);
 }
